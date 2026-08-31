@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "number-guessing-game"
+version = "1.0.0"
+description = "A CLI number guessing game with selectable difficulty levels."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Khansa Malik" }]
+
+[project.scripts]
+number-guessing-game = "number_guessing_game.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

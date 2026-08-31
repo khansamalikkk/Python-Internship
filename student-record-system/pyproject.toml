@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-record-system"
+version = "1.0.0"
+description = "A CLI-based student record management system with JSON persistence."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Khansa Malik" }]
+
+[project.scripts]
+student-records = "student_record_system.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
