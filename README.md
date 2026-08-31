@@ -18,7 +18,7 @@ run, tested, or extracted into its own repository independently.
 
 ```
 .
-├── student-record-system/
+├── Python-Internship/
 │   ├── src/student_record_system/
 │   ├── tests/
 │   ├── pyproject.toml
