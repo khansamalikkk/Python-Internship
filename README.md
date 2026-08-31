@@ -21,17 +21,21 @@ run, tested, or extracted into its own repository independently.
 ├── Python-Internship/
 │   ├── src/student_record_system/
 │   ├── tests/
-│   ├── pyproject.toml
-│   ├── requirements.txt
+|   ├── .gitignore
 │   ├── README.md
-│   └── .gitignore
+│   ├── Report.pdf
+│   ├── Tutorial Video.mp3
+│   ├── pyproject.toml
+│   └── requirements.txt
 ├── number-guessing-game/
 │   ├── src/number_guessing_game/
 │   ├── tests/
-│   ├── pyproject.toml
-│   ├── requirements.txt
+│   ├── .gitignore
 │   ├── README.md
-│   └── .gitignore
+│   ├── Report.pdf
+│   ├── Tutorial Video.mp3
+│   ├── pyproject.toml
+│   └── requirements.txt  
 ├── .gitignore
 ├── LICENSE
 └── README.md
