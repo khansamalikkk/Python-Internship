@@ -30,6 +30,8 @@ number-guessing-game/
 │       └── cli.py            # Command-line interface (entry point)
 ├── tests/
 │   └── test_number_guessing_game.py
+├── Report.pdf
+├── Tutorial Video.mp4
 ├── pyproject.toml
 ├── requirements.txt
 ├── .gitignore
