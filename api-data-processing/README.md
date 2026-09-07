@@ -37,5 +37,10 @@ api-data-processing/
 ├── process_api_data.py   # Main script
 ├── sample_data.json      # Local fallback dataset (same schema as the API)
 ├── README.md
+├── Report.pdf
+├── Tutorial.mp4
+├── output_data.csv
+├── summary_stats.json
+├── .gitignore
 └── LESSONS.md            # Key lessons / future improvements
 ```
