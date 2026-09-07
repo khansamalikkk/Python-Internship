@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "date": "2026-07-03",
+    "amount": 25.50,
+    "category": "food",
+    "description": "Lunch with team"
+  },
+  {
+    "id": 2,
+    "date": "2026-07-05",
+    "amount": 1200.00,
+    "category": "rent",
+    "description": "July rent payment"
+  },
+  {
+    "id": 3,
+    "date": "2026-07-12",
+    "amount": 45.00,
+    "category": "transport",
+    "description": "Monthly metro pass"
+  },
+  {
+    "id": 4,
+    "date": "2026-08-02",
+    "amount": 89.99,
+    "category": "utilities",
+    "description": "Electricity bill"
+  },
+  {
+    "id": 5,
+    "date": "2026-08-15",
+    "amount": 15.75,
+    "category": "food",
+    "description": "Groceries - vegetables and fruit"
+  },
+  {
+    "id": 6,
+    "date": "2026-08-20",
+    "amount": 60.00,
+    "category": "entertainment",
+    "description": "Movie night with friends"
+  },
+  {
+    "id": 7,
+    "date": "2026-09-01",
+    "amount": 1200.00,
+    "category": "rent",
+    "description": "September rent payment"
+  },
+  {
+    "id": 8,
+    "date": "2026-09-03",
+    "amount": 32.40,
+    "category": "food",
+    "description": "Dinner takeout"
+  },
+  {
+    "id": 9,
+    "date": "2026-09-05",
+    "amount": 22.00,
+    "category": "transport",
+    "description": "Taxi to airport"
+  },
+  {
+    "id": 10,
+    "date": "2026-09-06",
+    "amount": 150.00,
+    "category": "shopping",
+    "description": "New shoes"
+  }
+]
