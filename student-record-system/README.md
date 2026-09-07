@@ -30,6 +30,8 @@ student-record-system/
 │       └── cli.py            # Command-line interface (entry point)
 ├── tests/
 │   └── test_student_record_system.py
+├── Report.pdf
+├── Tutorial Video
 ├── pyproject.toml
 ├── requirements.txt
 ├── .gitignore
