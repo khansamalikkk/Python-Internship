@@ -18,7 +18,7 @@ run, tested, or extracted into its own repository independently.
 
 ```
 .
-├── Python-Internship/
+├── student-record-system/
 │   ├── src/student_record_system/
 │   ├── tests/
 |   ├── .gitignore
@@ -35,7 +35,17 @@ run, tested, or extracted into its own repository independently.
 │   ├── Report.pdf
 │   ├── Tutorial Video.mp3
 │   ├── pyproject.toml
-│   └── requirements.txt  
+│   └── requirements.txt
+├── api-data-processing/
+│   ├── process_api_data.py   # Main script
+│   ├── sample_data.json      # Local fallback dataset (same schema as the API)
+│   ├── README.md
+│   ├── Report.pdf
+│   ├── Tutorial.mp4
+│   ├── output_data.csv
+│   ├── summary_stats.json
+│   ├── .gitignore
+│   └── LESSONS.md      
 ├── .gitignore
 ├── LICENSE
 └── README.md
