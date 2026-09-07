@@ -9,9 +9,7 @@ applicable) a full unit test suite.
 | [Number Guessing Game](./number-guessing-game) | CLI number guessing game with selectable difficulty | [README](./number-guessing-game/README.md) |
 | [API Data Processing](./api-data-processing) | Fetches a public JSON API, cleans data, calculates stats, and exports to CSV | [README](./api-data-processing/README.md) |
 | [Expense Tracker](./expense-tracker) | CLI expense tracker with add/list/search, category filtering, monthly totals, and JSON persistence | [README](./expense-tracker/README.md) |
-Each project is self-contained in its own folder with its own
-dependencies, tests (where applicable), and README — so each can be
-run, tested, or extracted into its own repository independently.
+Each project is self-contained in its own folder with its own dependencies, tests (where applicable), and README — so each can be run, tested, or extracted into its own repository independently.
 ## Repository Structure
 ```
 .
@@ -49,6 +47,7 @@ run, tested, or extracted into its own repository independently.
 │   ├── README.md
 │   ├── Report.pdf
 │   ├── Tutorial.mp4
+│   ├── LESSONS.md
 │   └── .gitignore
 ├── .gitignore
 ├── LICENSE
