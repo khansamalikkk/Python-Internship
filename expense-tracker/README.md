@@ -131,6 +131,9 @@ Expenses are stored as a JSON array of objects in `expenses.json`:
 ```
 expense-tracker/
 ├── expense_tracker.py   # Main CLI application (single file, stdlib only)
+├── expenses.json
+├── Report.pdf
+├── Tutorial.mp4
 ├── README.md            # This file
 └── LESSONS.md           # Key lessons / possible improvements
 ```
