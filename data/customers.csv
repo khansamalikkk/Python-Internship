@@ -1,0 +1,13 @@
+id,name,email,age,country,signup_date,amount,currency
+1001,Jane Doe,jane@example.com,34,us,2023-01-15,129.99,USD
+1002,  John   Smith ,john.smith@example.com,29,gb,01/22/2023,89.50,GBP
+1003,Ayesha Khan,ayesha.khan@example.com,41,pk,2023-03-02,15000,PKR
+1004,Bad Email Row,not-an-email,22,de,2023-04-10,50.00,EUR
+1005,No Age Row,noage@example.com,,fr,2023-05-01,75.00,EUR
+1006,Future Date Row,future@example.com,30,tr,2099-01-01,60.00,TRY
+1007,Negative Amount,neg@example.com,45,us,2023-06-01,-20.00,USD
+1002,John Smith Duplicate,john.smith@example.com,29,gb,01/22/2023,89.50,GBP
+1009,Old Timer,oldtimer@example.com,88,us,2022-11-11,499.00,USD
+1010,,missingname@example.com,50,us,2023-02-02,25.00,USD
+1011,Ali Raza,ali.raza@example.com,19,pk,2023/07/19,4999.5,PKR
+1012,Out Of Range Age,rangeage@example.com,150,us,2023-08-08,12.00,USD

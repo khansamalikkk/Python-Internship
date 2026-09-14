@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "id": 2001,
+      "name": "Fatima Noor",
+      "email": "fatima.noor@example.com",
+      "age": 27,
+      "country": "pk",
+      "signup_date": "2023-09-05",
+      "amount": 220.75,
+      "currency": "PKR"
+    },
+    {
+      "id": 2002,
+      "name": "Mert Yilmaz",
+      "email": "mert.yilmaz@example.com",
+      "age": 33,
+      "country": "tr",
+      "signup_date": "2023-10-12",
+      "amount": 340.00,
+      "currency": "TRY"
+    },
+    {
+      "id": 2003,
+      "name": "Broken Row",
+      "email": "broken@@example.com",
+      "age": 40,
+      "country": "us",
+      "signup_date": "2023-11-01",
+      "amount": 99.99,
+      "currency": "USD"
+    },
+    {
+      "id": "not-an-id",
+      "name": "Bad Id Row",
+      "email": "badid@example.com",
+      "age": 25,
+      "country": "us",
+      "signup_date": "2023-11-05",
+      "amount": 10.0,
+      "currency": "USD"
+    }
+  ]
+}
