@@ -1,0 +1,155 @@
+[
+  {
+    "row": 4,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.csv",
+    "field": "email",
+    "code": "invalid_email",
+    "message": "email 'not-an-email' is not a valid email address",
+    "raw_record": {
+      "id": "1004",
+      "name": "Bad Email Row",
+      "email": "not-an-email",
+      "age": "22",
+      "country": "de",
+      "signup_date": "2023-04-10",
+      "amount": "50.00",
+      "currency": "EUR"
+    }
+  },
+  {
+    "row": 5,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.csv",
+    "field": "age",
+    "code": "missing_field",
+    "message": "Required field 'age' is missing or blank",
+    "raw_record": {
+      "id": "1005",
+      "name": "No Age Row",
+      "email": "noage@example.com",
+      "age": "",
+      "country": "fr",
+      "signup_date": "2023-05-01",
+      "amount": "75.00",
+      "currency": "EUR"
+    }
+  },
+  {
+    "row": 6,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.csv",
+    "field": "signup_date",
+    "code": "future_date",
+    "message": "signup_date '2099-01-01' is in the future",
+    "raw_record": {
+      "id": "1006",
+      "name": "Future Date Row",
+      "email": "future@example.com",
+      "age": "30",
+      "country": "tr",
+      "signup_date": "2099-01-01",
+      "amount": "60.00",
+      "currency": "TRY"
+    }
+  },
+  {
+    "row": 7,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.csv",
+    "field": "amount",
+    "code": "negative_amount",
+    "message": "amount -20.0 is negative",
+    "raw_record": {
+      "id": "1007",
+      "name": "Negative Amount",
+      "email": "neg@example.com",
+      "age": "45",
+      "country": "us",
+      "signup_date": "2023-06-01",
+      "amount": "-20.00",
+      "currency": "USD"
+    }
+  },
+  {
+    "row": 10,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.csv",
+    "field": "name",
+    "code": "missing_field",
+    "message": "Required field 'name' is missing or blank",
+    "raw_record": {
+      "id": "1010",
+      "name": "",
+      "email": "missingname@example.com",
+      "age": "50",
+      "country": "us",
+      "signup_date": "2023-02-02",
+      "amount": "25.00",
+      "currency": "USD"
+    }
+  },
+  {
+    "row": 12,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.csv",
+    "field": "age",
+    "code": "age_out_of_range",
+    "message": "age 150 is outside allowed range [0, 120]",
+    "raw_record": {
+      "id": "1012",
+      "name": "Out Of Range Age",
+      "email": "rangeage@example.com",
+      "age": "150",
+      "country": "us",
+      "signup_date": "2023-08-08",
+      "amount": "12.00",
+      "currency": "USD"
+    }
+  },
+  {
+    "row": 3,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.json",
+    "field": "email",
+    "code": "invalid_email",
+    "message": "email 'broken@@example.com' is not a valid email address",
+    "raw_record": {
+      "id": 2003,
+      "name": "Broken Row",
+      "email": "broken@@example.com",
+      "age": 40,
+      "country": "us",
+      "signup_date": "2023-11-01",
+      "amount": 99.99,
+      "currency": "USD"
+    }
+  },
+  {
+    "row": 4,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.json",
+    "field": "id",
+    "code": "invalid_id",
+    "message": "id 'not-an-id' is not a non-negative integer",
+    "raw_record": {
+      "id": "not-an-id",
+      "name": "Bad Id Row",
+      "email": "badid@example.com",
+      "age": 25,
+      "country": "us",
+      "signup_date": "2023-11-05",
+      "amount": 10.0,
+      "currency": "USD"
+    }
+  },
+  {
+    "row": 8,
+    "source_file": "D:\\Python Internship\\week-03\\automated-data-pipeline\\sample_data\\customers.csv",
+    "field": "id",
+    "code": "duplicate_id",
+    "message": "Duplicate id '1002' - keeping first occurrence, dropping this one",
+    "raw_record": {
+      "id": "1002",
+      "name": "John Smith Duplicate",
+      "email": "john.smith@example.com",
+      "age": "29",
+      "country": "gb",
+      "signup_date": "01/22/2023",
+      "amount": "89.50",
+      "currency": "GBP"
+    }
+  }
+]

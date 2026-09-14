@@ -1,0 +1,54 @@
+{
+  "totals": {
+    "records_read": 16,
+    "records_valid": 7,
+    "records_invalid": 9,
+    "records_duplicate": 1,
+    "success_rate_pct": 43.75
+  },
+  "age": {
+    "count": 7,
+    "min": 19,
+    "max": 88,
+    "mean": 38.71,
+    "median": 33,
+    "stdev": 21.08
+  },
+  "amount": {
+    "count": 7,
+    "min": 89.5,
+    "max": 15000.0,
+    "mean": 3039.82,
+    "median": 340.0,
+    "stdev": 5151.28
+  },
+  "amount_usd": {
+    "count": 7,
+    "min": 0.79,
+    "max": 499.0,
+    "mean": 117.9,
+    "median": 54.0,
+    "stdev": 162.5
+  },
+  "by_country": {
+    "PK": 3,
+    "US": 2,
+    "GB": 1,
+    "TR": 1
+  },
+  "by_age_group": {
+    "adult": 5,
+    "senior": 1,
+    "teen": 1
+  },
+  "by_currency": {
+    "PKR": 3,
+    "USD": 2,
+    "GBP": 1,
+    "TRY": 1
+  },
+  "date_range": {
+    "earliest": "2022-11-11",
+    "latest": "2023-10-12"
+  }
+}

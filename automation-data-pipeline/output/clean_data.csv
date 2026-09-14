@@ -1,0 +1,8 @@
+id,name,email,age,country,signup_date,amount,currency,age_group,amount_usd
+1001,Jane Doe,jane@example.com,34,US,2023-01-15,129.99,USD,adult,129.99
+1002,John Smith,john.smith@example.com,29,GB,2023-01-22,89.5,GBP,adult,113.67
+1003,Ayesha Khan,ayesha.khan@example.com,41,PK,2023-03-02,15000.0,PKR,adult,54.0
+1009,Old Timer,oldtimer@example.com,88,US,2022-11-11,499.0,USD,senior,499.0
+1011,Ali Raza,ali.raza@example.com,19,PK,2023-07-19,4999.5,PKR,teen,18.0
+2001,Fatima Noor,fatima.noor@example.com,27,PK,2023-09-05,220.75,PKR,adult,0.79
+2002,Mert Yilmaz,mert.yilmaz@example.com,33,TR,2023-10-12,340.0,TRY,adult,9.86
